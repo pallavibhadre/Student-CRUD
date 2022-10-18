@@ -1,0 +1,11 @@
+create database demo408;
+
+use student;
+
+CREATE TABLE `student` (
+  `id` int(11) NOT NULL ,
+  `name` varchar(100) NOT NULL,
+  `age` int(3) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  PRIMARY KEY  (`id`)
+);
